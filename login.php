@@ -11,9 +11,9 @@
 <body>
     <h2>Đăng nhập</h2>
     <form method="post" action="login.php">
-        <label>Ten Dang Nhap</label>
+        <label>Tên Đăng Nhập: </label>
         <input type="text" name="username" required><br><br>
-        <label>Mat Khau:</label>
+        <label>Mật khẩu: </label>
         <input type="password" name="password" required><br><br>
     </form>
 
