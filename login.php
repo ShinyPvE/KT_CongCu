@@ -9,11 +9,14 @@
 </head>
 
 <body>
-<h2>Đăng nhập</h2>
-        <form method="post" action="login.php">
-            <label>Ten Dang Nhap :</label>
-            <input type="text" name="username" required><br><br>
-        </form>
+    <h2>Đăng nhập</h2>
+    <form method="post" action="login.php">
+        <label>Ten Dang Nhap :</label>
+        <input type="text" name="username" required><br><br>
+        <label>Mat Khau:</label>
+        <input type="password" name="password" required><br><br>
+    </form>
+
 </body>
 
 </html>
