@@ -17,7 +17,17 @@
         <input type="password" name="password" required><br><br>
         <input type="submit" name="login" value="Dang Nhap">
     </form>
-
+    <?php
+    if (isset($_POST['login'])) {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        if ($username == "user" && $password == "password") {
+            echo "Đăng nhập thành công";
+        } else {
+            echo "Sai mật khẩu";
+        }
+    }
+    ?>
 </body>
 
 </html>
