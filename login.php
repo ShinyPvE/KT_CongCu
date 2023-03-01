@@ -11,11 +11,10 @@
 <body>
     <h2>Đăng nhập</h2>
     <form method="post" action="login.php">
-        <label>Ten Dang Nhap :</label>
+        <label>Ten Dang Nhap</label>
         <input type="text" name="username" required><br><br>
-        <label>Password</label>
+        <label>Mat Khau:</label>
         <input type="password" name="password" required><br><br>
-        <button type="submit" name="login" value="Login"></button>
     </form>
 
 </body>
