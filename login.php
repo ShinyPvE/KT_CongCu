@@ -15,6 +15,7 @@
         <input type="text" name="username" required><br><br>
         <label>Mat Khau:</label>
         <input type="password" name="password" required><br><br>
+        <input type="submit" name="login" value="Login">
     </form>
 
 </body>
